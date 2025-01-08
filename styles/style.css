@@ -9,6 +9,19 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/* primary style */
+.section-title {
+  font-size: 35;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+}
+.section-para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+}
 /* text-primary color */
 .primary {
   color: #fd6e0a;
@@ -16,6 +29,10 @@
 .primary-dark-2 {
   color: #474747;
 }
+.primary-dark-3 {
+  color: #757575;
+}
+
 /* Primary btn */
 .primary-btn {
   background-color: #fd6e0a;
@@ -34,6 +51,7 @@
   align-items: center;
   margin: 0 230px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .nav-title {
   font-weight: 800;
@@ -102,4 +120,58 @@ li button {
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-size: 6%, 50%;
+}
+
+/* main style */
+main {
+  margin: 0 230px;
+}
+main > section {
+  margin: 130px 0;
+}
+.About-me-container {
+  padding: 131px 157px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.About-me {
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+}
+.section-para {
+  margin: 30px 0;
+}
+.infos {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.info > .disc {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* skills section */
+
+.skills {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background-color: white;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0 20px 0;
+}
+.skill-para {
+  font-size: 16px;
+  font-weight: 400;
 }
