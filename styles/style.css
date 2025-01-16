@@ -83,7 +83,7 @@ li button {
 }
 
 .banner-content {
-  width: 585px;
+  max-width: 585px;
 }
 .banner-image {
   width: 570px;
@@ -139,7 +139,7 @@ main > section {
   border-radius: 10px;
 }
 .About-me {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   background-color: white;
 }
@@ -262,8 +262,30 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-  .skills {
+  .skills,
+  nav,
+  nav > ul {
     flex-direction: column;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .header {
+    background-image: none;
+  }
+  .a-btn > .primary-btn {
+    margin: 0;
+  }
+  .banner-content > .primary-btn {
+    margin-bottom: 10px;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .side1 {
+    margin: 10px 0;
   }
   .resume-container {
     flex-direction: column;
